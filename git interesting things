@@ -6,4 +6,4 @@ don't input user name and password
     Username for 'https://github.com': <USERNAME>
     Password for 'https://USERNAME@github.com': <PASSWORD>
 
-  git config --global credential.helper 'cache --timeout
+  git config --global credential.helper 'cache --timeout <time in s>
