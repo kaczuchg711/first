@@ -1,2 +1,5 @@
 na przestawianie się czasu między win a linux
 timedatectl set-local-rtc 1 --adjust-system-clock
+
+zaprzestanie sledzenia czegoś aby dodać w .gitignore
+ git rm -r --cached .idea
