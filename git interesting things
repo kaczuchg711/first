@@ -7,3 +7,8 @@ don't input user name and password
     Password for 'https://USERNAME@github.com': <PASSWORD>
 
   git config --global credential.helper 'cache --timeout <time in s>
+
+
+
+zaprzestanie sledzenia czegoś aby dodać w .gitignore
+ git rm -r --cached .idea
