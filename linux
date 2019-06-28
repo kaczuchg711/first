@@ -1,3 +1,9 @@
+Ubuntu
 na przestawianie się czasu między win a linux
 timedatectl set-local-rtc 1 --adjust-system-clock
 
+Mint
+na Try 'apt --fix-broken install' kiedy trzeba cos zainastalowac
+try changing to different mirrors in Software Sources and then attempting the two commands again.
+sudo /usr/bin/apt --fix-broken install
+apt install --reinstall libwebkit2gtk-4.0-37 gir1.2-webkit2-4.0 muffin-dbg nemo-db
